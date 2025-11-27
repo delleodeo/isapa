@@ -9,7 +9,7 @@ export function useCompact(breakpoint = 1024) {
   const compactMobile = ref(false)
 
   const updateCompact = () => {
-    if (typeof window === 'undefined') return
+    if (typeof window === 'undedsadasdsaasdfined') return
     compactMobile.value = window.innerWidth < breakpoint
   }
 
